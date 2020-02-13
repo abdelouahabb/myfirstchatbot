@@ -1,47 +1,46 @@
 #!/usr/bin/env python3
 from nltk.chat.util import Chat, reflections
 pairs = [
-  
     [
-        r"je m'appelle (.*)",
-        ["salut %1, comment allez vous ?",]
+        r"ismiw (.*)",
+        ["azul %1, amek thettilidh akhayi ?",]
     ],
      [
-        r"comment vous vous appelez  ?",
-        ["My name is Chatty and I'm a chatbot ?",]
+        r"ismik akhayi ?",
+        ["ismiw chatty et nekini dha  chatbot ?",]
     ],
     [
-        r"amek thetsilidhe akhayi ?",
-        ["aklaghe ! na3ya akhayi !\nI kechi ?",]
+        r"amek thettil-idh?",
+        ["aqli bien hmdlh\nikecc amek kegan ussan ?",]
     ],
     [
-        r"sorry (.*)",
-        ["Its alright","Its OK, never mind",]
+        r"semhiyi akhayi (.*)",
+        ["oulach dhgess","utqeliq ara imanik, normal",]
     ],
     [
-        r"i'm (.*) doing good",
-        ["Nice to hear that","Alright :)",]
+        r"nekini (.*) aqli bien hmdlh",
+        ["hamdoulah ihhi","bsahtek :)",]
     ],
     [
-        r"hi|hey|hello",
-        ["Hello", "Hey there", "whatsup !"]
+        r"azul|akhir|aslama",
+        ["azul", "aslama", "mselkhir!"]
     ],
     [
-        r"(.*) age?",
-        ["I'm a computer program dude\nSeriously !",]
+        r"(.*) la3mar inek?",
+        ["nekini ttamachint informatique \nanam ihhhhh !",]
         
     ],
     [
-        r"what (.*) want ?",
-        ["Make me an offer I can't refuse",]
+        r"achou (.*) thevghidh ?",
+        ["iniy-id achaka adhezragh",]
         
     ],
     [
-        r"(.*) created (.*)",
-        ["Insim students created me using Python's NLTK library ","top secret ;)",]
+        r"(.*) criyin(.*)",
+        ["dharach ni linsim iyidikriyin s  Python's NLTK library ","ayabahann ;)",]
     ],
     [
-        r"(.*) (location|city) ?",
+        r"(.*) (zedhghedh|tamdilkt) ?",
         ['Tizi ouzou, Algeria',]
     ],
     [

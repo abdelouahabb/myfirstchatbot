@@ -1,55 +1,54 @@
-#!/usr/bin/env python3
+#!/usr/bin/env  python3
 from nltk.chat.util import Chat, reflections
 pairs = [
-  
     [
-        r"je m'appelle (.*)",
-        ["salut %1, comment allez vous ?",]
+        r"salut (.*)",
+        ["Azul %1, comment allez-vous ?",]
     ],
      [
-        r"comment vous vous appelez  ?",
-        ["My name is Chatty and I'm a chatbot ?",]
+        r"Bonjour (.*)",
+        [" Bonjour 1% je suis un robot ?",]
     ],
     [
-        r"amek thetsilidhe akhayi ?",
-        ["aklaghe ! na3ya akhayi !\nI kechi ?",]
+        r"comment vas-tu ?",
+        ["je vais tres bien dieu merci\n et vous ?",]
     ],
     [
-        r"sorry (.*)",
-        ["Its alright","Its OK, never mind",]
+        r"desolé (.*)",
+        ["Non c'est pas grave","tout peut arriver dans se bas monde",]
     ],
     [
-        r"i'm (.*) doing good",
-        ["Nice to hear that","Alright :)",]
+        r"je suis (.*) ",
+        ["t'as un joli nom",]
     ],
     [
-        r"hi|hey|hello",
-        ["Hello", "Hey there", "whatsup !"]
+        r"Azul|salut|Bojour",
+        ["hafleone", "sava bien", "ça marche !"]
     ],
     [
         r"(.*) age?",
-        ["I'm a computer program dude\nSeriously !",]
+        ["je suis un robot en marche debut 1955 et j'espere vivre encore\n Derieux !",]
         
     ],
     [
-        r"what (.*) want ?",
-        ["Make me an offer I can't refuse",]
+        r"quoi (.*) veut ?",
+        ["peut etre que j'oublie souvent, mais pas un refus",]
         
     ],
     [
-        r"(.*) created (.*)",
+        r"(.*) cree (.*)",
         ["Insim students created me using Python's NLTK library ","top secret ;)",]
     ],
     [
-        r"(.*) (location|city) ?",
+        r"(.*) (lieu|ville|city) ?",
         ['Tizi ouzou, Algeria',]
     ],
     [
-        r"how is weather in (.*)?",
-        ["Weather in %1 is awesome like always","Too hot man here in %1","Too cold man here in %1","Never even heard about %1"]
+        r"ou se trouve (.*)?",
+        ["je sais que %1 se trouve un peut partout ici à tizi","%1 est partout","souvent dans  %1 ya pas de place pour toi","demande à maps %1"]
     ],
     [
-        r"i work in (.*)?",
+        r"je travil dans (.*)?",
         ["%1 is an Amazing company, I have heard about it. But they are in huge loss these days.",]
     ],
 [
