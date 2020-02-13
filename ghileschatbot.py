@@ -2,6 +2,21 @@
 from nltk.chat.util import Chat, reflections
 pairs = [
     [
+        r"ismiw (.*)",
+        ["Azul %1, Amek i thetilidh assaki ?",]
+    ],
+     [
+        r"amek ikessawalen ?",
+        ["ismiw chatty sawalen iyi chatbot ?",]
+    ],
+    [
+        r"amek i thetilidh ?",
+        ["aqlih bien\n et kecc amek ?",]
+    ],
+    [
+        r"semhiyi (.*)",
+        ["maalich","normal, t'inquiete pas",]
+    ],
         r"my name is (.*)",
         ["Hello %1, How are you today ?",]
     ],
