@@ -64,7 +64,7 @@ pairs = [
         ["hemlaghe mlih lfoot",]
     ],
     [
-        r"anwa joueur ithehemledh (.*) ?",
+        r"anwa joueur (.*) ?",
         ["Messy","Ronaldo","Mehrez"]
 ],
     [
