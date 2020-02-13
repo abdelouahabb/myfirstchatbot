@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 from nltk.chat.util import Chat, reflections
 pairs = [
+  
     [
-        r"my name is (.*)",
-        ["Hello %1, How are you today ?",]
+        r"je m'appelle (.*)",
+        ["salut %1, comment allez vous ?",]
     ],
      [
-        r"what is your name ?",
+        r"comment vous vous appelez  ?",
         ["My name is Chatty and I'm a chatbot ?",]
     ],
     [
