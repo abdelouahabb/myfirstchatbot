@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from nltk.chat.util import Chat, reflections
+#version : 1.2 Amazigh
 pairs = [
     [
         r"my name is (.*)",
